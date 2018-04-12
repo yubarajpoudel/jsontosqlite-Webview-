@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+    <form method="post" enctype="multipart/form-data" xmlns="http://www.w3.org/1999/html">
+    {% csrf_token %}
+    <p><label for="t"><b>Table JSON file</b></label></br></br>
+        <input type="file" name="t"></p>
+
+    <p>
+        <label for="d"> <b>Data JSON file</b></label> <br/></br>
+        <input type="file" name="d"></p>
+
+    <button type="submit">Upload</button>
+  </form>
+
+  {% if uploaded_file_url %}
+    <p>Download Database file from : <a href="{{ uploaded_file_url }}">{{ uploaded_file_url }}</a></p>
+  {% endif %}
+
+{#  <p><a href="{% url 'home' %}">Return to home</a></p>#}
+{% endblock %}
