@@ -1,0 +1,74 @@
+{
+	"news":[
+		{
+			"id":"1",
+			"title":"test title 1",
+			"description":"test Description 1"
+		},
+		{
+			"id":"2",
+			"title":"test title 2",
+			"description":"test Description 2"
+		},
+		{
+			"id":"3",
+			"title":"test title 3",
+			"description":"test Description 3"
+		},
+		{
+			"id":"4",
+			"title":"test title 4",
+			"description":"test Description 4"
+		},
+		{
+			"id":"5",
+			"title":"test title 5",
+			"description":"test Description 5"
+		}
+
+	],
+	"gallery":[
+		{
+			"id":"1",
+			"caption":"test caption 1",
+			"link":"test link 1"
+		},
+		{
+			"id":"2",
+			"caption":"test caption 2",
+			"link":"test link 2"
+		},
+		{
+			"id":"3",
+			"caption":"test caption 3",
+			"link":"test link 3"
+		},
+		{
+			"id":"4",
+			"caption":"test caption 4",
+			"link":"test link 4"
+		}
+	], 
+	"notice":[
+		{
+			"id":"1",
+			"title":"notice title 1",
+			"description":"notice description 1"
+		},
+		{
+			"id":"2",
+			"title":"notice title 2",
+			"description":"notice description 2"
+		},
+		{
+			"id":"3",
+			"title":"notice title 3",
+			"description":"notice description 3"
+		},
+		{
+			"id":"4",
+			"title":"notice title 4",
+			"description":"notice description 4"
+		}
+	]
+}

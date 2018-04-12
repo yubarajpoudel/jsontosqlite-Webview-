@@ -1,0 +1,14 @@
+[
+	{
+		"name":"news",
+		"schemas":"id,title,description"
+	},
+	{
+		"name":"gallery",
+		"schemas":"id,caption,link"
+	},
+	{
+		"name":"notice",
+		"schemas":"id,title,description"
+	}
+]
