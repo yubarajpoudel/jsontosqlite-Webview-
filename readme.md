@@ -1,4 +1,7 @@
-﻿**Convert Your JSON File to Sqlite file **
+﻿**Convert Your JSON File to Sqlite file**
+==========
+==========
+
 >   Clone the project or download to your local file
 >  Enter the project directory
 >  Run `pip install -r requirements.txt`
@@ -9,7 +12,7 @@ This will setup all the necessary files and run the server
 This will run in localhost by default i.e. http://127.0.0.1:8000 if you want to run in local IP then go to settings.py and add your local ip assigned to your computer in AllowedHost in settings.py 
 
     ALLOWED_HOSTS = ['192.168.0.100']
-and then run     `python manage.py runserver 192.169.0.100:8000`
+and then run     `python manage.py runserver 192.168.0.100:8000`
 
 The result will be
 
