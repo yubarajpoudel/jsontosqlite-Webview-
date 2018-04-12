@@ -1,6 +1,5 @@
 ﻿**Convert Your JSON File to Sqlite file**
 ==========
-==========
 
 >   Clone the project or download to your local file
 >  Enter the project directory
